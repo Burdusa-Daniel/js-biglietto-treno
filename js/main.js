@@ -12,3 +12,4 @@ if (age < 18) {
 } else {
     console.log("il prezzo del tuo biglietto è di: " + ticketPrice.toFixed(2)+"€");
 }
+document.getElementById("ticket_Price").innerHTML=ticketPrice.toFixed(2);
