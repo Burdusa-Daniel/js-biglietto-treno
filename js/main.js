@@ -5,11 +5,11 @@ let ticketPrice = km * kmCost;
 //console.log("il costo del tuo biglietto è di :" + ticketPrice);
 if (age < 18) {
     ticketPrice = ticketPrice - (ticketPrice * (20 / 100));
-    console.log("il prezzo del tuo biglietto è di: " + ticketPrice.toFixed(2)+"€");
+    console.log("il prezzo del tuo biglietto è di: " + ticketPrice.toFixed(2) + "€");
 } else if (age > 65) {
     ticketPrice = ticketPrice - (ticketPrice * (40 / 100));
-    console.log("il prezzo del tuo biglietto è di: " + ticketPrice.toFixed(2)+"€");
+    console.log("il prezzo del tuo biglietto è di: " + ticketPrice.toFixed(2) + "€");
 } else {
-    console.log("il prezzo del tuo biglietto è di: " + ticketPrice.toFixed(2)+"€");
+    console.log("il prezzo del tuo biglietto è di: " + ticketPrice.toFixed(2) + "€");
 }
-document.getElementById("ticket_Price").innerHTML=ticketPrice.toFixed(2);
+document.getElementById("ticket_Price").innerHTML = ticketPrice.toFixed(2);
